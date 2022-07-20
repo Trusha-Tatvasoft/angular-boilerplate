@@ -22,8 +22,23 @@ Run `npm install prettier -D` to install prettier extension. I use VS Code, alon
 
 ## Lint
 
-Runs linting tools on Angular application code in a given project folder. It checks the code quality of angular project specified. It uses TSLint as default linting tool and uses the default configuration available in tslint.
+Runs `ng lint` linting tools on Angular application code in a given project folder. It checks the code quality of angular project specified. It uses TSLint as default linting tool and uses the default configuration available in tslint.
 (https://angular.io/cli/lint)
+
+## Authentication
+
+`AuthGuard`
+
+For Authentication purpose we use `auth.guard.ts`. AuthGuard is used to protect the routes from unauthorized access.
+
+`Interceptor`
+
+HTTP Interceptors `interceptor.service.ts` is a special type of angular service that we can implement. It's used to apply custom logic to the central point between the client-side and server-side outgoing/incoming HTTP request and response.
+
+## Angular Material
+
+In this Project We Created a material module into Shared Folder `material.module.ts` that will include all the material Dependencies.
+
 
 ## Running unit tests
 
