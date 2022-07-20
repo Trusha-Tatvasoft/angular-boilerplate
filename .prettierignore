@@ -1,0 +1,21 @@
+# Ignore artifacts:
+build
+coverage
+
+# Ignore files:
+.eslintrc.json
+angular.json
+decorate-angular-cli.js
+migrations.json
+package-lock.json
+package.json
+protractor.conf.js
+tsconfig.json
+karma.conf.js
+
+
+# dependencies
+/node_modules
+
+# folders
+/.vscode

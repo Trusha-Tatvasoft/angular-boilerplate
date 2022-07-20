@@ -1,0 +1,12 @@
+{
+  "singleQuote": true,
+  "trailingComma": "all",
+  "overrides": [
+    {
+      "files": "apps/**/*.html",
+      "options": {
+        "printWidth": 130
+      }
+    }
+  ]
+}
